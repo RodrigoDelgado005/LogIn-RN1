@@ -41,6 +41,7 @@ Debemos escaneaer el codigo QR con la aplicacion para acceder al proyecto
 Es importante saber que ante cualquier problema, podemos acceder a la documentacion oficial de expo donde nos proporcionan la solucion a cualquier error(https://docs.expo.dev/tutorial/create-your-first-app/)
 
 Para este proyecto se consulto a las siguientes fuentes:
+
 https://medium-com.translate.goog/@ashfaaqahamed17/creating-signup-and-login-system-using-react-native-php-and-mysql-f176a1de2c73?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=nui&_x_tr_hist=true
 https://blog.devops.dev/creating-simple-sign-up-screen-with-react-native-php-and-mysql-8a363a0d3a66
 https://aboutreact.com/react-native-login-and-signup/
