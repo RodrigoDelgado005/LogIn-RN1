@@ -56,6 +56,7 @@ Solucion:
 Para esto se utilizo el archivo index.tsx para realizar la pagina de presentacion en la cual hay un boton que nos lleva al login
 Para que el boton nos lleve al Login, se creo en la carpeta navigation el archivo homeStack.tsx, en el cual definimos las rutas y en el archivo index.tsx definimos la funcion para que nos lleve al registro.
 Esta parte de la aplicacion se ve asi:
+
 ![image](https://github.com/user-attachments/assets/c73dcc10-cade-42ed-b99a-0a43f7e440e8)
 
 
