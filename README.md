@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/32fbb7d8-0f6f-447f-b0f4-b8b5a26becfa)﻿# LogIn-RN1
+# LogIn-RN1
 
 Para comenzar con el proyecto, es importante ejecutar los siguientes comandos:
 
@@ -56,15 +56,15 @@ Solucion:
 Para esto se utilizo el archivo index.tsx para realizar la pagina de presentacion en la cual hay un boton que nos lleva al login
 Para que el boton nos lleve al Login, se creo en la carpeta navigation el archivo homeStack.tsx, en el cual definimos las rutas y en el archivo index.tsx definimos la funcion para que nos lleve al registro.
 Esta parte de la aplicacion se ve asi:
-![WhatsApp Image 2024-10-17 at 13 44 36](https://github.com/user-attachments/assets/0507a3f2-1bb1-4587-8033-d91c85b50d9d)
+![image](https://github.com/user-attachments/assets/c73dcc10-cade-42ed-b99a-0a43f7e440e8)
+
 
 Para el Login se utilizo Xampp para la BD y PHP para el BackEnd, esta parte del proyecto se encuentra en el siguiente Repositorio:
 https://github.com/RodrigoDelgado005/Login-BasedeDatos
 
 Para el archivo Login.tsx, se realizo la conexion con el BackEnd, se definieron los distintos mensajes segun corresponda, se creo el Registro y el Inicio de Sesion los cuales se pueden alternar por medio de un boton. En caso del Registro se verificara el formato requerido y se consultara a la BD que no hayan datos que coincidan con un usuario existente y para el Inicio de Sesion se verificara que los datos ingresados coincidan con algun usuario en la BD. Es importante modificar la url de solicitud por la ip de nuestro PC, esto lo podemos obtener desde el simbolo del sistema por medio del comando 'ipconfig' junto a la ruta en donde se encuentra nuestro BackEnd.
 Esta parte de la aplicacion se ve asi:
-![WhatsApp Image 2024-10-17 at 13 44 36 (1)](https://github.com/user-attachments/assets/2caea818-fddf-4496-b13d-700f35bc43be)
-![WhatsApp Image 2024-10-17 at 13 44 37](https://github.com/user-attachments/assets/2db79ff7-9fcf-4a80-94ef-6a7f327b384e)
+
 
 
 Cualquier duda o error podemos consultar la documentacion oficial y las fuentes utilizadas para el proyecto.
