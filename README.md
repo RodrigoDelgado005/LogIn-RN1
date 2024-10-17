@@ -66,6 +66,7 @@ Esta parte de la aplicacion se ve asi:
 
 Cualquier duda o error podemos consultar la documentacion oficial y las fuentes utilizadas para el proyecto.
 Para este proyecto se consulto a las siguientes fuentes:
+
 https://medium-com.translate.goog/@ashfaaqahamed17/creating-signup-and-login-system-using-react-native-php-and-mysql-f176a1de2c73?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=nui&_x_tr_hist=true
 
 https://blog.devops.dev/creating-simple-sign-up-screen-with-react-native-php-and-mysql-8a363a0d3a66
