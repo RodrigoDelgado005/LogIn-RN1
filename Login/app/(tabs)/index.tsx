@@ -15,10 +15,9 @@ export default function HomeScreen() {
     navigation.navigate('Login'); 
   };
 
-  // Muestra por pantalla un mensaje de bienvenida y el boton que nos redirige a la pantalla de Login
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC'}}>
+      headerBackgroundColor={{ light: '#A1CEDC' }}>
       <View style={styles.container}>
         <ThemedView style={styles.titleContainer}>
           <ThemedText type="title">
@@ -32,7 +31,6 @@ export default function HomeScreen() {
           <Text style={styles.buttonText}>Empezar</Text>
         </TouchableOpacity>
       </View>
-      {/*Contenedor de iconos que representan los lenguajes de programación */}
       <View style={styles.iconContainer}>
         <FontAwesome5 name="react" size={30} color="#9c9c9c" style={styles.icon} />
         <FontAwesome5 name="node" size={30} color="#9c9c9c" style={styles.icon} />

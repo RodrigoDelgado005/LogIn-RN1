@@ -1,46 +1,43 @@
-// Importamos React y las librerías necesarias para la navegación
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import HomeScreen from '/RN1/Login/app/(tabs)/index';
-import Login from '/RN1/Login/app/(tabs)/Login';
+import HomeScreen from '/Login-RN1/Login/app/(tabs)/index';
+import Login from '/Login-RN1/Login/app/(tabs)/Login';
+import GoogleAuthScreen from '/Login-RN1/Login/app/googleAuth';
+import FacebookAuthScreen from '/Login-RN1/Login/app/facebookAuth';
+import ProfileScreen from '/Login-RN1/Login/app/(tabs)/profileScreen';
 
-// Definir el tipo de parámetros para el stack de navegación
-type RootStackParamList = {
+export type RootStackParamList = {
   HomeScreen: undefined;
   Login: undefined;
+  GoogleAuth: undefined;
+  FacebookAuth: undefined;
+  ProfileScreen: undefined;
 };
 
-// Crear el stack de navegación
 const Stack = createStackNavigator<RootStackParamList>();
 
-// Componente que define la navegación del HomeStack
-const HomeStack = () => {
-  return (
-    <Stack.Navigator
-      screenOptions={{
-        headerStyle: {
-          backgroundColor: '#009387',
-        },
-        headerTintColor: '#fff', 
-        headerTitleStyle: {
-          textAlign: 'center',
-          fontWeight: 'bold',
-        },
-      }}
-    >
-      {/* Pantalla de inicio y Login */}
-      <Stack.Screen name="HomeScreen" component={HomeScreen} />
-      <Stack.Screen name="Login" component={Login} />
-    </Stack.Navigator>
-  );
-};
-
-// Componente contenedor para la navegación de la aplicación
 const AppContainer = () => {
   return (
     <NavigationContainer>
-      <HomeStack />
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: '#009387',
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            textAlign: 'center',
+            fontWeight: 'bold',
+          },
+        }}
+      >
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="GoogleAuth" component={GoogleAuthScreen} />
+        <Stack.Screen name="FacebookAuth" component={FacebookAuthScreen} />
+        <Stack.Screen name="ProfileScreen" component={ProfileScreen} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 };
